@@ -61,7 +61,7 @@ Partial Class frmMain
         Me.txtFile.Name = "txtFile"
         Me.txtFile.Size = New System.Drawing.Size(450, 20)
         Me.txtFile.TabIndex = 2
-        Me.txtFile.Text = "Pilot.exe"
+        Me.txtFile.Text = "HaltingMachine.exe"
         '
         'prgbarStatus
         '
@@ -84,6 +84,7 @@ Partial Class frmMain
         '
         'timerTimeout
         '
+        Me.timerTimeout.Interval = 1000
         '
         'lblTimerDisplay
         '
@@ -144,7 +145,7 @@ Partial Class frmMain
         Me.txtSeconds.Text = "0"
         Me.txtSeconds.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'frmPilot
+        'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -162,8 +163,8 @@ Partial Class frmMain
         Me.Controls.Add(Me.btnRun)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.MaximizeBox = False
-        Me.Name = "frmPilot"
-        Me.Text = "Pilot"
+        Me.Name = "frmMain"
+        Me.Text = "Halting Machine"
         Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()

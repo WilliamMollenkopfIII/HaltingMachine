@@ -1,16 +1,17 @@
 ﻿Public Class frmMain
 
-    Private TimeoutTime As Integer = 1 * 60 * 100 ' Default: 10 minutes, 60 seconds per min, 100 milliseconds per second ? (thought it was 1000 but... vb.net says otherwise?)
+    Private TimeoutTime As Integer = 1 * 60 ' Default: 10 minutes, 60 seconds per min
     Private ProcessProperties As New ProcessStartInfo
     Private myProcess As Process
     Private percentCounter As Double = 0
-    Private millisecondCounter As Double = 0
+    Private secondCounter As Double = 0
 
     Private Sub btnRun_Click(sender As Object, e As EventArgs) Handles btnRun.Click
         ToggleVisabilityAccessibility() ' assumed initalized by form design definition
 
         ' Calculate the time
-        TimeoutTime = (txtHours.Text * 60 * 60 * 100) + (txtMinutes.Text * 60 * 100) + (txtSeconds.Text * 100)
+        TimeoutTime = (txtHours.Text * 60 * 60) + (txtMinutes.Text * 60) + (txtSeconds.Text)
+     
         timerTimeout.Start() ' Start the timer
 
         ' Assign the process the file to use and execute
@@ -35,13 +36,19 @@
         txtHours.Enabled = Not txtHours.Enabled
         txtMinutes.Enabled = Not txtMinutes.Enabled
         txtSeconds.Enabled = Not txtSeconds.Enabled
+
+        ' Just reset these every time it toggles
+        prgbarStatus.Value = 0
+        percentCounter = 0
+        secondCounter = 0
+        lblPercent.Text = ""
     End Sub
     Private Sub timerTimeout_Tick(sender As Object, e As EventArgs) Handles timerTimeout.Tick
         If prgbarStatus.Value < 100 Then
-            millisecondCounter += 1
+            secondCounter += 1
             percentCounter += 100 / TimeoutTime
             prgbarStatus.Value = percentCounter
-            lblTimerDisplay.Text = getMinSecText(millisecondCounter) + " / " + getMinSecText(TimeoutTime / 10)
+            lblTimerDisplay.Text = getMinSecText(secondCounter) + " / " + getMinSecText(TimeoutTime)
             lblPercent.Text = (Math.Round(percentCounter, 2)).ToString() + " / 100% "
 
             prgbarStatus.Refresh()
@@ -63,9 +70,9 @@
         End If
     End Sub
 
-    Private Function getMinSecText(milliseconds As Integer)
+    Private Function getMinSecText(seconds As Integer)
         ' Hours:Minutes:Seconds
-        Return Math.Floor((milliseconds / 10 / 60 / 60)).ToString("00") + ":" + Math.Floor((milliseconds / 10 / 60)).ToString("00") + ":" + Math.Round(((milliseconds / 10) Mod 60), 2).ToString("00")
+        Return Math.Floor((seconds / 60 / 60)).ToString("00") + ":" + Math.Floor((seconds / 60)).ToString("00") + ":" + Math.Round(((seconds) Mod 60), 2).ToString("00")
     End Function
 
     Private Sub time_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtHours.KeyPress, txtMinutes.KeyPress
