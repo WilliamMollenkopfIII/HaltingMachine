@@ -1,0 +1,20 @@
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\bin\Release\Halting Machine.exe.config
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\bin\Release\Halting Machine.exe
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\bin\Release\Halting Machine.pdb
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\bin\Release\Halting Machine.xml
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\obj\Release\HaltingMachine.frmMain.resources
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\obj\Release\HaltingMachine.Resources.resources
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\obj\Release\HaltingMachine.vbproj.GenerateResource.Cache
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\obj\Release\Halting Machine.exe
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\obj\Release\Halting Machine.xml
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\obj\Release\Halting Machine.pdb
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\bin\Release\Halting Machine.exe.config
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\obj\Release\Halting Machine.exe
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\obj\Release\Halting Machine.xml
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\obj\Release\Halting Machine.pdb
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\bin\Release\Halting Machine.exe
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\bin\Release\Halting Machine.pdb
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\bin\Release\Halting Machine.xml
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\obj\Release\HaltingMachine.frmMain.resources
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\obj\Release\HaltingMachine.Resources.resources
+S:\SVNs\eg_rating\Pilot\Pilot\HaltingMachine\obj\Release\HaltingMachine.vbproj.GenerateResource.Cache

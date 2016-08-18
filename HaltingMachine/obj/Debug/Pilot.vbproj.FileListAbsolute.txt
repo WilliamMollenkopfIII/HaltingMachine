@@ -1,0 +1,16 @@
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Debug\Pilot.vbproj.GenerateResource.Cache
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\bin\Debug\Pilot.exe.config
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\bin\Debug\Pilot.exe
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\bin\Debug\Pilot.pdb
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\bin\Debug\Pilot.xml
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Debug\Pilot.frmPilot.resources
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Debug\Pilot.Resources.resources
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Debug\Pilot.exe
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Debug\Pilot.xml
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Debug\Pilot.pdb
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\bin\Debug\Pilot.exe.config
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\obj\Debug\Pilot.exe
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\obj\Debug\Pilot.xml
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\obj\Debug\Pilot.pdb
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\bin\Debug\Halting Machine.exe.config
+S:\SVNs\eg_rating\Pilot\Pilot\Pilot\bin\Debug\HaltingMachine.exe.config

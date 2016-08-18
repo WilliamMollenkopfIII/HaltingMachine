@@ -1,0 +1,10 @@
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Release\Pilot.vbproj.GenerateResource.Cache
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\bin\Release\Pilot.exe.config
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\bin\Release\Pilot.exe
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\bin\Release\Pilot.pdb
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\bin\Release\Pilot.xml
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Release\Pilot.frmPilot.resources
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Release\Pilot.Resources.resources
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Release\Pilot.exe
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Release\Pilot.xml
+S:\SVNs\eg_rating\Pilot\Pilot\WindowsApplication1\obj\Release\Pilot.pdb
